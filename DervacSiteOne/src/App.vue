@@ -1,0 +1,21 @@
+<script>
+import { defineComponent } from 'vue';
+import { RouterLink, RouterView } from 'vue-router'
+import Navbar from './views/Navbar.vue';
+import Footer from './views/Footer.vue';
+
+
+export default defineComponent({
+  components: {Navbar, Footer}
+})
+</script>
+
+<template>
+  <Navbar />
+  <RouterView />
+  <Footer />
+</template>
+
+<style scoped>
+
+</style>
