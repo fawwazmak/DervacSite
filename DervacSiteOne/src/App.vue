@@ -11,7 +11,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <Navbar />
+  <Navbar class="sticky top-0" />
   <RouterView />
   <Footer />
 </template>
