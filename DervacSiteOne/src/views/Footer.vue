@@ -13,8 +13,8 @@ export default defineComponent({
 
 <template>
     <div class="bg-black text-white p-12">
-        <div class="flex justify-between font-bold">
-            <div class="w-[20%]">
+        <div class="flex md:flex-row flex-col md:items-start items-center md:text-left text-center md:justify-between font-bold">
+            <div class="md:w-[20%] w-fit">
                 <p class="text-2xl mb-4">Contact Information</p>
                 
                 <div class="flex flex-col gap-y-8">
@@ -38,31 +38,33 @@ export default defineComponent({
                     </div>
                 </div>
             </div>
+
+
             <div>
                 <p class="text-2xl mb-4">Contact us on</p>
 
-                <div class="flex gap-x-6">
-                    <div class="bg-blue-800 w-fit rounded-[50%] p-2 hover:bg-black hover:border hover:border-white">
+                <div class="flex sm:gap-x-6">
+                    <div class="bg-blue-800 w-fit rounded-[50%] sm:p-2 p-1 hover:bg-black hover:border hover:border-white transition hover:ease-in-out duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="-7 -2 24 24"><path fill="white" d="M2.046 3.865v2.748H.032v3.36h2.014v9.986H6.18V9.974h2.775s.26-1.611.386-3.373H6.197V4.303c0-.343.45-.805.896-.805h2.254V0H6.283c-4.34 0-4.237 3.363-4.237 3.865z"/></svg>
                     </div>
 
 
-                    <div class="bg-blue-400 w-fit rounded-[50%] p-2 hover:bg-black hover:border hover:border-white">
+                    <div class="bg-blue-400 w-fit rounded-[50%] p-2 hover:bg-black hover:border hover:border-white transition hover:ease-in-out duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256"><path fill="white" d="M128 80a48 48 0 1 0 48 48a48.05 48.05 0 0 0-48-48Zm0 72a24 24 0 1 1 24-24a24 24 0 0 1-24 24Zm48-132H80a60.07 60.07 0 0 0-60 60v96a60.07 60.07 0 0 0 60 60h96a60.07 60.07 0 0 0 60-60V80a60.07 60.07 0 0 0-60-60Zm36 156a36 36 0 0 1-36 36H80a36 36 0 0 1-36-36V80a36 36 0 0 1 36-36h96a36 36 0 0 1 36 36ZM196 76a16 16 0 1 1-16-16a16 16 0 0 1 16 16Z"/></svg>
                     </div>
 
 
-                    <div class="bg-red-600 w-fit rounded-[50%] p-2 hover:bg-black hover:border hover:border-white">
+                    <div class="bg-red-600 w-fit rounded-[50%] p-2 hover:bg-black hover:border hover:border-white transition hover:ease-in-out duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 50 50"><path fill="white" fill-rule="evenodd" d="M18 23v4.8h7.9c-.3 2.1-2.4 6-7.9 6c-4.8 0-8.7-4-8.7-8.8s3.9-8.8 8.7-8.8c2.7 0 4.5 1.2 5.6 2.2l3.8-3.7C24.9 12.4 21.8 11 18 11c-7.7 0-14 6.3-14 14s6.3 14 14 14c8.1 0 13.4-5.7 13.4-13.7c0-.9-.1-1.6-.2-2.3H18zm30 0h-4v-4h-4v4h-4v4h4v4h4v-4h4z" clip-rule="evenodd"/></svg>
                     </div>
 
 
-                    <div class="bg-pink-700 w-fit rounded-[50%] p-2 hover:bg-black hover:border hover:border-white">
+                    <div class="bg-pink-700 w-fit rounded-[50%] p-2 hover:bg-black hover:border hover:border-white transition hover:ease-in-out duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 20 20"><g fill="white"><path d="M11.5 20a8.5 8.5 0 1 1 0-17a8.5 8.5 0 0 1 0 17Z" opacity=".2"/><path fill-rule="evenodd" d="M1.5 10a8.5 8.5 0 1 0 17 0a8.5 8.5 0 0 0-17 0Zm16 0a7.5 7.5 0 1 1-15 0a7.5 7.5 0 0 1 15 0Z" clip-rule="evenodd"/><path fill-rule="evenodd" d="M6.5 10c0 4.396 1.442 8 3.5 8s3.5-3.604 3.5-8s-1.442-8-3.5-8s-3.5 3.604-3.5 8Zm6 0c0 3.889-1.245 7-2.5 7s-2.5-3.111-2.5-7S8.745 3 10 3s2.5 3.111 2.5 7Z" clip-rule="evenodd"/><path d="m3.735 5.312l.67-.742c.107.096.221.19.343.281c1.318.988 3.398 1.59 5.665 1.59c1.933 0 3.737-.437 5.055-1.19a5.59 5.59 0 0 0 .857-.597l.65.76c-.298.255-.636.49-1.01.704c-1.477.845-3.452 1.323-5.552 1.323c-2.47 0-4.762-.663-6.265-1.79a5.81 5.81 0 0 1-.413-.34Zm0 9.388l.67.74c.107-.096.221-.19.343-.28c1.318-.988 3.398-1.59 5.665-1.59c1.933 0 3.737.436 5.055 1.19c.321.184.608.384.857.596l.65-.76a6.583 6.583 0 0 0-1.01-.704c-1.477-.844-3.452-1.322-5.552-1.322c-2.47 0-4.762.663-6.265 1.789c-.146.11-.284.223-.413.34ZM2 10.5v-1h16v1H2Z"/></g></svg>
                     </div>
 
 
-                    <div class="bg-violet-600 w-fit rounded-[50%] p-2 hover:bg-black hover:border hover:border-white">
+                    <div class="bg-violet-600 w-fit rounded-[50%] p-2 hover:bg-black hover:border hover:border-white transition hover:ease-in-out duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16"><path fill="white" d="M4.671 0c.88 0 1.733.247 2.468.702a7.423 7.423 0 0 1 6.02 2.118a7.372 7.372 0 0 1 2.167 5.215c0 .344-.024.687-.072 1.026a4.662 4.662 0 0 1 .6 2.281a4.645 4.645 0 0 1-1.37 3.294A4.673 4.673 0 0 1 11.18 16c-.84 0-1.658-.226-2.37-.644a7.423 7.423 0 0 1-6.114-2.107A7.374 7.374 0 0 1 .529 8.035c0-.363.026-.724.08-1.081a4.644 4.644 0 0 1 .76-5.59A4.68 4.68 0 0 1 4.67 0zm.447 7.01c.18.309.43.572.729.769a7.07 7.07 0 0 0 1.257.653c.492.205.873.38 1.145.523c.229.112.437.264.615.448c.135.142.21.331.21.528a.872.872 0 0 1-.335.723c-.291.196-.64.289-.99.264a2.618 2.618 0 0 1-1.048-.206a11.44 11.44 0 0 1-.532-.253a1.284 1.284 0 0 0-.587-.15a.717.717 0 0 0-.501.176a.63.63 0 0 0-.195.491a.796.796 0 0 0 .148.482a1.2 1.2 0 0 0 .456.354a5.113 5.113 0 0 0 2.212.419a4.554 4.554 0 0 0 1.624-.265a2.296 2.296 0 0 0 1.08-.801c.267-.39.402-.855.386-1.327a2.09 2.09 0 0 0-.279-1.101a2.53 2.53 0 0 0-.772-.792A7.198 7.198 0 0 0 8.486 7.3a1.05 1.05 0 0 0-.145-.058a18.182 18.182 0 0 1-1.013-.447a1.827 1.827 0 0 1-.54-.387a.727.727 0 0 1-.2-.508a.805.805 0 0 1 .385-.723a1.76 1.76 0 0 1 .968-.247c.26-.003.52.03.772.096c.274.079.542.177.802.293c.105.049.22.075.336.076a.6.6 0 0 0 .453-.19a.69.69 0 0 0 .18-.496a.717.717 0 0 0-.17-.476a1.374 1.374 0 0 0-.556-.354a3.69 3.69 0 0 0-.708-.183a5.963 5.963 0 0 0-1.022-.078a4.53 4.53 0 0 0-1.536.258a2.71 2.71 0 0 0-1.174.784a1.91 1.91 0 0 0-.45 1.287c-.01.37.076.736.25 1.063z"/></svg>
                     </div>
                 </div>
@@ -70,7 +72,7 @@ export default defineComponent({
         </div>
         <div class="mt-12">
             <div class="w-full bg-white h-[1px]"></div>
-            <p class="text-center mt-2">{{ currentYear }} &copy;  <span>dervacHub</span> Int'l Ltd. All rights reserved.</p>
+            <p class="text-center mt-2">{{ currentYear }} &copy;  <span class="font-[Bimini] text-[#224c75]">dervac<span class="text-red-600">Hub</span></span> Int'l Ltd. All rights reserved.</p>
         </div>
     </div>
 </template>
