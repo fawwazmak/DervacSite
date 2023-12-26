@@ -35,7 +35,7 @@ export default defineComponent({
 <template>
     <div>
         <div class="bg-blue-900 w-full md:h-8 relative py-1" :class="isHidden ? 'hidden' : 'block'" >
-            <div class="flex md:gap-x-12 gap-x-3 w-fit md:absolute md:right-4 md:px-0 px-4">
+            <div class="flex md:gap-x-12 gap-x-3 w-fit md:absolute md:right-4 md:px-0 px-4 md:text-base text-xs">
                 <div class="sm:font-semibold flex md:gap-x-2">
                     <p class="md:text-gray-400 text-white">EMAIL US:</p>
                     <a href="http://" target="_blank" class="text-white">info@hub.com</a>
@@ -47,18 +47,17 @@ export default defineComponent({
                 </div>
             </div>
         </div>
-        <div class="flex justify-between items-center bg-white sm:px-12 px-4 py-4">
+        <div class="flex justify-between items-center sm:px-12 px-4 py-4" :class="isHidden ? 'bg-black' : 'bg-white'">
             <div class="flex items-center ">
-                <img src="../assets/images/dervac_logo.png" alt="logo" class="md:w-[40px] w-[30px]">
-                <p class="font-[Bimini] text-[#224c75] text-2xl">dervac<span class="text-red-600">Hub</span></p>
+                <img src="../assets/images/logo.png" alt="logo" class="md:w-[40px] w-[30px]">
             </div>
 
-            <ul class="flex md:flex-row md:relative left-0 md:bg-none  md:p-0 md:space-y-0 md:top-0  md:h-fit md:justify-between md:items-center md:gap-x-8 font-semibold text-blue-800" :class="drop? 'flex-col absolute bg-white z-20 p-4 space-y-6 top-[100px] h-screen ' : 'hidden md:flex'" >
-                <li>HOME</li>
-                <li>ABOUT US</li>
-                <li>SERVICES</li>
-                <li>BLOG</li>
-                <li>CONTACT US</li>
+            <ul class="flex md:flex-row md:relative left-0 md:bg-none  md:p-0 md:space-y-0 md:top-0  md:h-fit md:justify-between md:items-center md:gap-x-8 font-semibold" :class="drop? 'flex-col absolute bg-white z-20 p-4 space-y-6 top-[100px] h-screen ' : 'hidden md:flex'" >
+                <li :class="isHidden ? 'text-white' : 'text-blue-800' ">HOME</li>
+                <li :class="isHidden ? 'text-white' : 'text-blue-800' ">ABOUT US</li>
+                <li :class="isHidden ? 'text-white' : 'text-blue-800' ">SERVICES</li>
+                <li :class="isHidden ? 'text-white' : 'text-blue-800' ">BLOG</li>
+                <li :class="isHidden ? 'text-white' : 'text-blue-800' ">CONTACT US</li>
             </ul>
 
             <div class="md:hidden" @click="toggleDrop()">
