@@ -72,7 +72,7 @@ export default defineComponent({
         </div>
         <div class="mt-12">
             <div class="w-full bg-white h-[1px]"></div>
-            <p class="text-center mt-2">{{ currentYear }} &copy;  <span class="font-[Bimini] text-[#224c75]">dervac<span class="text-red-600">Hub</span></span> Int'l Ltd. All rights reserved.</p>
+            <p class="text-center mt-2">{{ currentYear }} &copy; domainPlus Int'l Ltd. All rights reserved.</p>
         </div>
     </div>
 </template>
