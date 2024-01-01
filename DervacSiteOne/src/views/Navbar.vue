@@ -49,7 +49,7 @@ export default defineComponent({
         </div>
         <div class="flex justify-between items-center sm:px-12 px-4 py-4" :class="isHidden ? 'bg-black' : 'bg-white'">
             <div class="flex items-center ">
-                <img src="../assets/images/logo.png" alt="logo" class="md:w-[40px] w-[30px]">
+                <img src="/images/logo.png" alt="logo" class="md:w-[40px] w-[30px]">
             </div>
 
             <ul class="flex md:flex-row md:relative left-0 md:bg-none  md:p-0 md:space-y-0 md:top-0  md:h-fit md:justify-between md:items-center md:gap-x-8 font-semibold" :class="drop? 'flex-col absolute bg-white z-20 p-4 space-y-6 top-[100px] h-screen ' : 'hidden md:flex'" >

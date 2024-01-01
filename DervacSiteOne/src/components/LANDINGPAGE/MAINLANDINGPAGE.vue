@@ -5,10 +5,10 @@ import SecondSection from './SecondSection.vue';
 import ThirdSection from './ThirdSection.vue';
 import FourthSection from './FourthSection.vue'; 
 import FifthSection from './FifthSection.vue';
-import SixSection from './SixSection.vue';
+import SixthSection from './SixthSection.vue';
 
 export default defineComponent({
-    components: {FirstSection, SecondSection, ThirdSection, FourthSection, FifthSection, SixSection},
+    components: {FirstSection, SecondSection, ThirdSection, FourthSection, FifthSection, SixthSection},
     data(){
         return{
         }
@@ -23,7 +23,7 @@ export default defineComponent({
     <ThirdSection />
     <FourthSection />
     <FifthSection />
-    <SixSection />
+    <SixthSection />
 </template>
 
 

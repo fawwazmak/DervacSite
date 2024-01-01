@@ -13,7 +13,7 @@ export default defineComponent({
 
 
 <template>
-    <div class="main pt-32 flex flex-col items-center">
+    <div class="main pt-32 flex flex-col items-center pb-12">
         <div>
             <p class="text-gray-600 md:text-6xl text-blue-900 sm:text-3xl text-xl text-center font-medium">Your Complete</p>
             <p class="text-gray-600 md:text-6xl text-blue-900 sm:text-3xl text-xl font-medium">Consulting Partner</p>
@@ -28,8 +28,8 @@ export default defineComponent({
 <style>
 .main {
     /* background-color: brown; */
-    background-image: url(../../assets/images/heroSection.jpeg);
-    height: 70vh;
+    background-image: url(/images/heroSection.jpeg);
+    /* height: 70vh; */
     /* width: 100%; */
     background-size: cover;
     background-repeat: no-repeat;
