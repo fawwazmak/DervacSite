@@ -23,7 +23,7 @@ export default defineComponent({
         },
     },
     mounted () {
-        setInterval(this.increasepartner, 9000)
+        setInterval(this.increasepartner, 10000)
     },
     methods: {
         increasepartner() {

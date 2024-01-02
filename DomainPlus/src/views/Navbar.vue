@@ -38,18 +38,18 @@ export default defineComponent({
             <div class="flex md:gap-x-12 gap-x-3 w-fit md:absolute md:right-4 md:px-0 px-4 md:text-base text-xs">
                 <div class="sm:font-semibold flex md:gap-x-2">
                     <p class="md:text-gray-400 text-white">EMAIL US:</p>
-                    <a href="http://" target="_blank" class="text-white">info@hub.com</a>
+                    <a href="http://" target="_blank" class="text-white">info@domain-plusltd.com</a>
                 </div>
                 <div class="bg-black h-6 w-[2px] md:block hidden"></div>
                 <div class="sm;font-semibold flex md:gap-x-2">
                     <p class="md:text-gray-400 text-white">CALL US NOW:</p>
-                    <a href="http://" target="_blank" class="text-white">09084563778</a>
+                    <a href="http://" target="_blank" class="text-white">08023121258</a>
                 </div>
             </div>
         </div>
         <div class="flex justify-between items-center sm:px-12 px-4 py-4" :class="isHidden ? 'bg-black' : 'bg-white'">
             <div class="flex items-center ">
-                <img src="/images/logo.png" alt="logo" class="md:w-[40px] w-[30px]">
+                <img src="/images/logo.svg" alt="logo" class="md:w-12 w-[30px]">
             </div>
 
             <ul class="flex md:flex-row md:relative left-0 md:bg-none  md:p-0 md:space-y-0 md:top-0  md:h-fit md:justify-between md:items-center md:gap-x-8 font-semibold" :class="drop? 'flex-col absolute bg-white z-20 p-4 space-y-6 top-[100px] h-screen ' : 'hidden md:flex'" >

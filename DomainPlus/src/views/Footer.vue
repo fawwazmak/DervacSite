@@ -13,35 +13,61 @@ export default defineComponent({
 
 <template>
     <div class="bg-black text-white p-12">
-        <div class="flex md:flex-row flex-col md:items-start items-center md:text-left text-center md:justify-between font-bold">
-            <div class="md:w-[20%] w-fit">
-                <p class="text-2xl mb-4">Contact Information</p>
+        <div class="flex lg:flex-row flex-col lg:items-start items-center lg:text-left text-center lg:justify-between font-bold">
+            <div class="lg:w-[20%] w-full">
+                <p class="text-2xl mb-4">Address</p>
                 
                 <div class="flex flex-col gap-y-8">
                     <div class="flex space-x-2 text-[17px]">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="white" d="m20.665 3.717l-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42l10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001l-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15l4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"/></svg><p>65 Shipeolu street, near Tantalizers, Palmgroove, Lagos</p>
-                    </div>
-
-
-                    <div class="flex space-x-2 text-[17px]">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="white" d="M4.05 21q-.45 0-.75-.3t-.3-.75V15.9q0-.325.225-.588t.575-.362l3.45-.7q.35-.05.713.063t.587.337L10.9 17q.95-.55 1.8-1.213t1.625-1.437q.825-.8 1.513-1.663t1.187-1.787L14.6 8.45q-.2-.2-.275-.475T14.3 7.3l.65-3.5q.05-.325.325-.563T15.9 3h4.05q.45 0 .75.3t.3.75q0 3.125-1.363 6.175t-3.862 5.55q-2.5 2.5-5.55 3.863T4.05 21Z"/></svg><p>+2348160225365, +2348026944449</p>
-                    </div>
-
-
-                    <div class="flex space-x-2 text-[17px]">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24"><path fill="white" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5l8-5v10zm-8-7L4 6h16l-8 5z"/></svg><p>info@dervac.com</p>
-                    </div>
-
-
-                    <div class="flex space-x-2 text-[17px]">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="white" d="M12.5 12.792V8.5q0-.213-.143-.357Q12.213 8 12 8t-.357.143q-.143.144-.143.357v4.379q0 .161.056.3q.056.14.186.271l3.05 3.05q.14.14.345.15q.203.01.363-.15t.16-.354q0-.194-.16-.354l-3-3ZM12 21q-1.663 0-3.118-.626q-1.455-.626-2.543-1.713q-1.087-1.088-1.713-2.543Q4 14.663 4 13q0-1.663.626-3.118q.626-1.455 1.713-2.543q1.088-1.087 2.543-1.713Q10.337 5 12 5q1.663 0 3.118.626q1.455.626 2.543 1.713q1.087 1.088 1.713 2.543Q20 11.337 20 13q0 1.663-.626 3.118q-.626 1.455-1.713 2.543q-1.088 1.087-2.543 1.713Q13.663 21 12 21Zm0-8ZM2.78 7.262q-.159-.16-.159-.354q0-.195.16-.354L5.554 3.78q.14-.14.344-.15q.204-.01.364.15t.16.354q0 .194-.16.353L3.488 7.262q-.14.14-.344.15q-.204.01-.363-.15Zm18.44 0q-.16.16-.355.16q-.194 0-.353-.16l-2.774-2.774q-.14-.14-.15-.344q-.01-.204.15-.363q.16-.16.354-.16q.195 0 .354.16l2.773 2.773q.14.14.15.344q.01.204-.15.364ZM12 20q2.906 0 4.953-2.047T19 13q0-2.906-2.047-4.953T12 6Q9.094 6 7.047 8.047T5 13q0 2.906 2.047 4.953T12 20Z"/></svg><p>Monday - Friday: 09:00 - 18:00</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="white" d="m20.665 3.717l-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42l10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001l-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15l4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"/></svg><p>2 Adaranijo street, opposite Pedro Police Station, Palmgroove, Lagos, Nigeria</p>
                     </div>
                 </div>
             </div>
 
 
             <div>
-                <p class="text-2xl mb-4">Contact us on</p>
+                <p class="text-2xl mb-4">Contact Us</p>
+                <div class="flex space-x-2 text-[17px] mb-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24"><path fill="white" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5l8-5v10zm-8-7L4 6h16l-8 5z"/></svg><p>info@domain-plusltd.com</p>
+                </div>
+
+                <div class="flex space-x-2 text-[17px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="white" d="M4.05 21q-.45 0-.75-.3t-.3-.75V15.9q0-.325.225-.588t.575-.362l3.45-.7q.35-.05.713.063t.587.337L10.9 17q.95-.55 1.8-1.213t1.625-1.437q.825-.8 1.513-1.663t1.187-1.787L14.6 8.45q-.2-.2-.275-.475T14.3 7.3l.65-3.5q.05-.325.325-.563T15.9 3h4.05q.45 0 .75.3t.3.75q0 3.125-1.363 6.175t-3.862 5.55q-2.5 2.5-5.55 3.863T4.05 21Z"/></svg><p>08023121258, 08126290758</p>
+                </div>
+            </div>
+
+
+            <div class="flex flex-col gap-y-2 text-left lg:w-fit w-full lg:mt-0 mt-12">
+                <p class="lg:text-xl md:text-3xl text-2xl text-center lg:text-left">ABOUT</p>
+                <p>WHY DOMAINPLUS</p>
+                <p>FIND SERVICES</p>
+                <p>FIND SOFTWARE</p>
+            </div>
+
+            <!-- <div class="flex flex-col gap-y-10 text-left lg:w-fit w-full lg:mt-0 mt-12">
+                <p class="lg:text-xl md:text-3xl text-2xl text-center lg:text-left">ABOUT</p>
+                <p>WHY DOMAINPLUS</p>
+                <p>CONTACT US</p>
+                <p>GLOSSARY</p>
+                <p>BLOGS</p>
+                <p>HELP CENTER</p>
+            </div>
+
+            <div class="flex flex-col gap-y-10 text-left lg:w-fit w-full lg:mt-0 mt-12">
+                <p class="lg:text-xl md:text-3xl text-2xl text-center lg:text-left">FOR USER</p>
+                <p>RESEARCH METHODOLOGY</p>
+                <p>FIND SERVICES</p>
+                <p>FIND SOFTWARE</p>
+                <p>INSIGHTS</p>
+                <p>WRITE A REVIEW</p>
+            </div> -->
+
+            <div class="lg:mt-0 mt-12">
+                <p class="text-2xl mb-4">Office hour</p>
+
+                <div class="flex space-x-2 text-[17px] mb-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="white" d="M12.5 12.792V8.5q0-.213-.143-.357Q12.213 8 12 8t-.357.143q-.143.144-.143.357v4.379q0 .161.056.3q.056.14.186.271l3.05 3.05q.14.14.345.15q.203.01.363-.15t.16-.354q0-.194-.16-.354l-3-3ZM12 21q-1.663 0-3.118-.626q-1.455-.626-2.543-1.713q-1.087-1.088-1.713-2.543Q4 14.663 4 13q0-1.663.626-3.118q.626-1.455 1.713-2.543q1.088-1.087 2.543-1.713Q10.337 5 12 5q1.663 0 3.118.626q1.455.626 2.543 1.713q1.087 1.088 1.713 2.543Q20 11.337 20 13q0 1.663-.626 3.118q-.626 1.455-1.713 2.543q-1.088 1.087-2.543 1.713Q13.663 21 12 21Zm0-8ZM2.78 7.262q-.159-.16-.159-.354q0-.195.16-.354L5.554 3.78q.14-.14.344-.15q.204-.01.364.15t.16.354q0 .194-.16.353L3.488 7.262q-.14.14-.344.15q-.204.01-.363-.15Zm18.44 0q-.16.16-.355.16q-.194 0-.353-.16l-2.774-2.774q-.14-.14-.15-.344q-.01-.204.15-.363q.16-.16.354-.16q.195 0 .354.16l2.773 2.773q.14.14.15.344q.01.204-.15.364ZM12 20q2.906 0 4.953-2.047T19 13q0-2.906-2.047-4.953T12 6Q9.094 6 7.047 8.047T5 13q0 2.906 2.047 4.953T12 20Z"/></svg><p>Monday - Friday: 09:00 - 18:00</p>
+                </div>
 
                 <div class="flex sm:gap-x-6">
                     <div class="bg-blue-800 w-fit rounded-[50%] sm:p-2 p-1 hover:bg-black hover:border hover:border-white transition hover:ease-in-out duration-300">
@@ -70,9 +96,9 @@ export default defineComponent({
                 </div>
             </div>
         </div>
-        <div class="mt-12">
+        <div class="mt-8">
             <div class="w-full bg-white h-[1px]"></div>
-            <p class="text-center mt-2">{{ currentYear }} &copy; domainPlus Int'l Ltd. All rights reserved.</p>
+            <p class="text-center mt-2">{{ currentYear }} &copy; DomainPlus Int'l Ltd. All rights reserved | Powered by  <a href="https://dervac.com" target="_blank"><span class="font-[Bimini]">dervac.</span></a></p>
         </div>
     </div>
 </template>
