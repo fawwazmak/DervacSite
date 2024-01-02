@@ -18,7 +18,7 @@ export default defineComponent({
 
 <template>
     <section class="bg-blue-400 py-12 ">
-        <p class="text-center text-2xl font-semibold">Our Services</p>
+        <p class="text-center md:text-4xl text-xl font-semibold">Our Services</p>
 
         <div class="flex md:flex-row flex-col justify-between px-12 py-6">
             <div class="md:w-[30%] md:mb-0 mb-8">
